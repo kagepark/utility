@@ -12,7 +12,7 @@ version='0.2.25'
 
 def get_django(django_url=None,url_port=8000,ids=None,list_tag=False,data=None):
     if django_url is None:
-        django_url='http://172.16.115.130:8000/list/'
+        django_url='http://xxx.xxx.xxx.xxx:xxxx/list/'
     else:
         if url_port is None:
             django_url_arr=django_url.split(':')
